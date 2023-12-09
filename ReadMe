@@ -1,0 +1,24 @@
+# AI Model Deployment with Docker and Kubernetes
+
+## Setup Instructions:
+
+Step 1: Develop the AI Model
+  -> Install all the required packages included in the "Requirements.txt" file.
+
+Step 2: Run Flask App:
+  -> python webapp.py
+
+Step 3: Set up a Deployment Pipeline
+  -> Create a Dockerfile
+  -> Build Docker Image using the command:
+        " docker build -t kushmanda_Task . "
+
+  -> Run the Docker container locally:
+        "docker run -p 5000:5000 kushmanda_Task"
+
+Step 4: Kubernetes Deployment
+  -> Deploy to Kubernetes using the command:
+        "kubectl apply -f my-kubernete.yaml"
+
+
+
