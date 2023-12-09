@@ -1,4 +1,6 @@
 # AI Model Deployment with Docker and Kubernetes
+Developing Basic Flower Image Classification AI model for deployment with docker and Kubernetes. 
+Used the Google Apis flower image dataset to train my model.
 
 ## Setup Instructions:
 
